@@ -217,16 +217,6 @@ const Login = () => {
             {isForgotPassword ? 'Back to Sign In' : 'Forgot Password?'}
           </button>
         </div>
-
-        <div className="login-footer" style={{ marginTop: '24px' }}>
-          <p style={{ fontWeight: '600', color: 'var(--text-main)' }}>Demo Credentials:</p>
-          <div style={{ fontSize: '11px', display: 'flex', flexDirection: 'column', gap: '3px', marginTop: '6px', textAlign: 'left', paddingLeft: '15px' }}>
-            <p>• Fleet Manager: <code>admin.ops@transitops.com</code> / <code>admin123</code></p>
-            <p>• Dispatcher: <code>dispatch.team@transitops.com</code> / <code>dispatch123</code></p>
-            <p>• Safety Officer: <code>safety.first@transitops.com</code> / <code>safety123</code></p>
-            <p>• Financial Analyst: <code>finance.leads@transitops.com</code> / <code>finance123</code></p>
-          </div>
-        </div>
       </div>
     </div>
   );
